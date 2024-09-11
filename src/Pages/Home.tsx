@@ -1,5 +1,6 @@
 import image1 from "../Images/Screenshot_2023-04-24-20-28-21-08.jpg";
 import CV from "../Images/My Resume.pdf";
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="pb-6">
@@ -92,10 +93,13 @@ const Home = () => {
           </button>
         </a>
 
-        <button className="text-[14px] border-2 border-[#f36f00] rounded-3xl ">
+        <Link to="/contact">
           {" "}
-          Contact Me{" "}
-        </button>
+          <button className="text-[14px] border-2 border-[#f36f00] rounded-3xl ">
+            {" "}
+            Contact Me{" "}
+          </button>
+        </Link>
       </div>
     </div>
   );
