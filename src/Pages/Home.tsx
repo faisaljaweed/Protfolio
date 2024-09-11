@@ -3,9 +3,14 @@ import CV from "../Images/My Resume.pdf";
 const Home = () => {
   return (
     <div className="pb-6">
-      <div className="border-[4px] border-[#f36f00] rounded-full flex items-center justify-center">
-        <img className="size-64 rounded-full" src={image1} alt="image1" />
+      <div className="w-64 h-64 border-[4px] border-[#f36f00] rounded-full flex items-center justify-center">
+        <img
+          className="w-full h-full object-cover rounded-full"
+          src={image1}
+          alt="image1"
+        />
       </div>
+
       <h2 className="text-[24px] font-semibold text-start pt-3 tracking-wide">
         {" "}
         Hello, I am <br />
