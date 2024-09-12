@@ -16,7 +16,7 @@ const Projects = () => {
               <h2 className="text-start text-[#00ae76] font-bold text-[24px]">
                 {item.tittle}
               </h2>
-              <p className="text-start text-black font-semibold text-[16px] tracking-wider pt-4 pb-4">
+              <p className="text-start  font-semibold text-[16px] tracking-wider pt-4 pb-4">
                 {item.desc}
               </p>
               <div className="flex justify-center items-center flex-row gap-4 pt-3 pb-3">
