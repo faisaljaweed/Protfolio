@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="pb-6">
-      <div className="w-64 h-64 border-[4px] border-[#f36f00] rounded-full flex items-center justify-center">
+      <div className="w-64 h-64 border-[6px] border-[#00ae76] rounded-full flex items-center justify-center">
         <img
           className="w-full h-full object-cover rounded-full"
           src={image1}
@@ -12,15 +12,15 @@ const Home = () => {
         />
       </div>
 
-      <h2 className="text-[24px] font-semibold text-start pt-3 tracking-wide">
+      <h2 className="text-[24px] font-semibold text-start text-[#00ae76] pt-3 tracking-wide">
         {" "}
         Hello, I am <br />
-        <span className="text-[24px] font-bold tracking-wide">
+        <span className="text-[24px] font-bold tracking-wide text-black">
           {" "}
           Muhammad Faisal
         </span>
       </h2>
-      <h2 className="text-[18px] text-[#f36f00] text-start font-bold tracking-wide">
+      <h2 className="text-[18px] text-[#00ae76] text-start font-bold tracking-wide">
         Full Stack Web Developer
       </h2>
       <p className="text-[14px] text-start">
@@ -31,11 +31,11 @@ const Home = () => {
       </p>
 
       <div className="flex gap-4 items-center justify-center mt-6 mb-6">
-        <div className="w-10 h-10  border-[3px] border-[#f36f00] rounded-full flex items-center justify-center">
+        <div className="w-10 h-10  border-[3px] border-[#00ae76] rounded-full flex items-center justify-center">
           <a href="https://www.facebook.com/faisal.jawed.399">
             {" "}
             <svg
-              className="h-6 w-6 text-[#f36f00] "
+              className="h-6 w-6 text-[#00ae76] "
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
@@ -48,11 +48,11 @@ const Home = () => {
             </svg>
           </a>
         </div>
-        <div className="w-10 h-10  border-[3px] border-[#f36f00] rounded-full flex items-center justify-center">
+        <div className="w-10 h-10  border-[3px] border-[#00ae76] rounded-full flex items-center justify-center">
           <a href="https://www.linkedin.com/in/faisal-jawed-6b3255214/">
             {" "}
             <svg
-              className="h-6 w-6 text-[#f36f00]"
+              className="h-6 w-6 text-[#00ae76]"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
@@ -67,11 +67,11 @@ const Home = () => {
             </svg>
           </a>
         </div>
-        <div className="w-10 h-10  border-[3px] border-[#f36f00] rounded-full flex items-center justify-center">
+        <div className="w-10 h-10  border-[3px] border-[#00ae76] rounded-full flex items-center justify-center">
           <a href="https://github.com/faisaljaweed?tab=repositories">
             {" "}
             <svg
-              className="h-6 w-6 text-[#f36f00]"
+              className="h-6 w-6 text-[#00ae76]"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
@@ -87,7 +87,7 @@ const Home = () => {
       </div>
       <div className="flex gap-2 items-center justify-center ">
         <a href={CV} download>
-          <button className="text-[14px] border-2 border-[#f36f00] rounded-3xl">
+          <button className="text-[14px] border-2 border-[#00ae76] rounded-3xl">
             {" "}
             Get Resume{" "}
           </button>
@@ -95,7 +95,7 @@ const Home = () => {
 
         <Link to="/contact">
           {" "}
-          <button className="text-[14px] border-2 border-[#f36f00] rounded-3xl ">
+          <button className="text-[14px] border-2 border-[#00ae76] rounded-3xl ">
             {" "}
             Contact Me{" "}
           </button>

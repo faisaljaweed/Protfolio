@@ -1,3 +1,11 @@
+type dataType = {
+  id: string;
+  image: any;
+  tittle: string;
+  desc: string;
+  deployUrl: string;
+  githubUrl: string;
+};
 import basiccalculator from "../Images/protfolio_img/Basic-Calculator.png";
 import customwebsite from "../Images/protfolio_img/Custom_Website.png";
 import expensetracker from "../Images/protfolio_img/Expense_Tracker.png";
@@ -15,10 +23,10 @@ import eatandsplit from "../Images/protfolio_img/eat-n-split.png";
 import nuno from "../Images/protfolio_img/nuno.png";
 import travelList from "../Images/protfolio_img/travel-list.png";
 
-const Data = [
+const Data: dataType[] = [
   {
     id: "1",
-    image: { basiccalculator },
+    image: basiccalculator,
     tittle: "Basic Calculator",
     desc: "A basic calculator is a simple tool that performs fundamental arithmetic operations such as addition, subtraction, multiplication, and division.",
     deployUrl: "https://basic-calculator-liart.vercel.app/",
@@ -26,7 +34,7 @@ const Data = [
   },
   {
     id: "2",
-    image: { customwebsite },
+    image: customwebsite,
     tittle: "Custom Website",
     desc: "A custom website is a tailored online platform designed specifically to meet the unique needs and preferences of a client or business.",
     deployUrl: "https://coustom-websites.vercel.app/",
@@ -34,7 +42,7 @@ const Data = [
   },
   {
     id: "3",
-    image: { expensetracker },
+    image: expensetracker,
     tittle: "Expense Tracker",
     desc: "An expense tracker helps monitor and manage personal or business expenditures to maintain a budget and improve financial control.",
     deployUrl: "https://epense-trackerreactjs.vercel.app/",
@@ -42,7 +50,7 @@ const Data = [
   },
   {
     id: "4",
-    image: { fakeapi },
+    image: fakeapi,
     tittle: "Ecommerce Fake APi",
     desc: "A mock API for eCommerce applications that simulates real-world product and transaction data for testing and development purposes.",
     deployUrl: "https://faisaljaweed.github.io/fakeecommerceapi/home",
@@ -50,7 +58,7 @@ const Data = [
   },
   {
     id: "5",
-    image: { lms },
+    image: lms,
     tittle: "Learning Management System Software",
     desc: "A comprehensive software solution for managing educational courses, student information, and teaching resources in an organized and efficient manner.",
     deployUrl: "https://faisaljaweed.github.io/LMS-React-With-Firebase/",
@@ -58,7 +66,7 @@ const Data = [
   },
   {
     id: "6",
-    image: { landingpage },
+    image: landingpage,
     tittle: "Landing Page",
     desc: "A visually appealing web page designed to capture visitor interest and drive conversions for a specific product, service, or campaign.",
     deployUrl: "https://faisaljaweed.github.io/LandingPageAssignment-1/",
@@ -66,7 +74,7 @@ const Data = [
   },
   {
     id: "7",
-    image: { notificationrtk },
+    image: notificationrtk,
     tittle: "Notification RTK",
     desc: "A notification management application built with Redux Toolkit for real-time updates and centralized state management.",
     deployUrl: "https://notification-rtk.vercel.app/",
@@ -74,7 +82,7 @@ const Data = [
   },
   {
     id: "8",
-    image: { pizza },
+    image: pizza,
     tittle: "Pizza",
     desc: "A static pizza application showcasing pizza options with fixed content and styles.",
     deployUrl: "https://pizza-project-five.vercel.app/",
@@ -82,7 +90,7 @@ const Data = [
   },
   {
     id: "9",
-    image: { pizzeria },
+    image: pizzeria,
     tittle: "Pizzeria",
     desc: "A fully dynamic pizzeria application with Redux integration and a shopping cart to manage and display order amounts.",
     deployUrl: "https://pizzeria-green.vercel.app/",
@@ -90,7 +98,7 @@ const Data = [
   },
   {
     id: "10",
-    image: { quizapplication },
+    image: quizapplication,
     tittle: "Quiz Application",
     desc: "An interactive quiz application for creating, taking, and tracking quizzes and scores.",
     deployUrl: "https://faisaljaweed.github.io/Quiz-App-React-and-TypeScript/",
@@ -98,7 +106,7 @@ const Data = [
   },
   {
     id: "11",
-    image: { stopwatch },
+    image: stopwatch,
     tittle: "Stop Watch",
     desc: "A simple and intuitive stopwatch application for timing and tracking intervals.",
     deployUrl: "https://stop-watch-umber-eta.vercel.app/",
@@ -106,7 +114,7 @@ const Data = [
   },
   {
     id: "12",
-    image: { todo },
+    image: todo,
     tittle: "Todo App",
     desc: "A task management application for creating, updating, and organizing to-do lists efficiently.",
     deployUrl: "https://faisaljaweed.github.io/Todo-App-in-Typescript/",
@@ -114,7 +122,7 @@ const Data = [
   },
   {
     id: "13",
-    image: { saylaniwebsite },
+    image: saylaniwebsite,
     tittle: "Saylani Website",
     desc: "A static website for Saylani offering an overview of services and information without dynamic content.",
     deployUrl: "https://saylani-website-murex.vercel.app/",
@@ -122,7 +130,7 @@ const Data = [
   },
   {
     id: "14",
-    image: { eatandsplit },
+    image: eatandsplit,
     tittle: "Eat and Split Bill",
     desc: "An application for dining groups to easily split bills and manage shared expenses.",
     deployUrl: "https://master--statuesque-cobbler-ed5a73.netlify.app/",
@@ -131,7 +139,7 @@ const Data = [
   },
   {
     id: "15",
-    image: { nuno },
+    image: nuno,
     tittle: "Nuno Website",
     desc: "A visually stunning static website with a beautifully designed theme.",
     deployUrl: "https://nuno-nine.vercel.app/",
@@ -139,7 +147,7 @@ const Data = [
   },
   {
     id: "16",
-    image: { travelList },
+    image: travelList,
     tittle: "Travel List ",
     desc: "A beautifully designed application for organizing and managing your travel plans and destinations.",
     deployUrl: "https://travel-list-smoky-one.vercel.app/",

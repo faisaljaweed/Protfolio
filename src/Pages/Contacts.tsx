@@ -18,7 +18,7 @@ const Contacts = () => {
         <input
           type="text"
           placeholder="Enter your Name"
-          className="border-2 border-black p-2 my-2"
+          className="border-[3px] border-[#00ae76] p-2 my-2"
           value={name}
           onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
             setName(e.target.value)
@@ -29,7 +29,7 @@ const Contacts = () => {
         <input
           type="email"
           placeholder="Enter your Email"
-          className="border-2 border-black p-2 my-2"
+          className="border-[3px] border-[#00ae76] p-2 my-2"
           value={email}
           onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
             setEmail(e.target.value)
@@ -43,13 +43,13 @@ const Contacts = () => {
           placeholder="Enter your Questions"
           rows={5}
           cols={10}
-          className="border-2 border-black p-2 my-2"
+          className="border-[3px] border-[#00ae76] p-2 my-2"
           value={questions}
           onChange={(e) => setQuestions(e.target.value)}
           required
         />
         <div>
-          <button className="bg-[#1a1917] text-white">Submit</button>
+          <button className="bg-[#00ae76] text-white">Submit</button>
         </div>
       </form>
     </div>

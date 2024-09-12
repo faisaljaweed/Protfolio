@@ -43,7 +43,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, setIsOpen }) => {
           </button>
 
           <div className="p-4 flex items-center justify-center flex-col mt-16 gap-4">
-            <div className="border-[4px] border-[#f36f00] rounded-full flex items-center justify-center">
+            <div className="border-[5px] border-[#00ae76] rounded-full flex items-center justify-center">
               <img className="size-28 rounded-full" src={image1} alt="image1" />
             </div>
             <Link to="/">

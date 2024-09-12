@@ -2,11 +2,13 @@ import image1 from "../Images/Screenshot_2023-04-24-20-28-21-08.jpg";
 const About = () => {
   return (
     <div>
-      <h1 className="text-start text-[24px] pt-8">About me</h1>
-      <h2 className="text-start text-[20px] font-semibold text-[#f36f00]">
+      <h1 className="text-start text-[24px] pt-8 text-[#00ae76] font-extrabold">
+        About me
+      </h1>
+      <h2 className="text-start text-[20px] font-bold text-[#00ae76]">
         Muhammad Faisal Jawed
       </h2>
-      <div className="size-[200px] border-[4px] border-[#1e2932] rounded-full flex items-center justify-center">
+      <div className="size-[200px] border-[6px] border-[#00ae76] rounded-full flex items-center justify-center">
         <img className="size-48 rounded-full" src={image1} alt="image1" />
       </div>
       <p className="text-start text-[16px] tracking-wider pt-5">
