@@ -1,17 +1,18 @@
 const Skills = () => {
   return (
-    <div className="pt-4 pb-10">
+    <div className="pt-4 pb-10 pl-[2rem] pr-[2rem] lg:ml-64">
       <h1 className="text-[24px] font-bold text-start pt-10 text-[#00ae76] ">
         Skills
       </h1>
-      <p className="text-start text-[16px] tracking-wider pt-5 pb-5">
-        I am actively seeking an internship opportunity in MERN STACK. I am
-        skilled in HTML, CSS, JavaScript, Bootstrap, React.js, Redux Toolkit,
-        and Material-UI. My backend development expertise includes MongoDB,
-        Express.js, Next.js, and Node.js. Additionally, I am currently studying
-        mobile development with React Native.
+      <p className="text-start text-[16px] tracking-wider pt-5 pb-5 text-white">
+        I am proficient in the MERN stack, including MongoDB, Express.js,
+        React.js, and Node.js, enabling me to build full-stack web applications
+        with seamless user experiences and robust back-end functionality.
+        Additionally, I have expertise in Flutter for developing
+        high-performance, cross-platform mobile apps, allowing me to deliver
+        versatile solutions across both web and mobile platforms.
       </p>
-      <div className="flex gap-4 flex-col">
+      <div className="flex gap-4 flex-col md:w-72 md:ml-[7rem]">
         <div className="flex gap-3 flex-col">
           <label className="text-[18px] font-bold">Html</label>
           <div className="w-full h-5 bg-[#dee9d8] rounded-full relative">
@@ -25,7 +26,7 @@ const Skills = () => {
         </div>
 
         <div className="flex gap-3 flex-col">
-          <label className="text-[18px] font-bold">Css</label>
+          <label className="text-[18px] font-bold text-white">Css</label>
           <div className="w-full h-5 bg-[#dee9d8] rounded-full">
             <div
               className="h-5 bg-[#00ae76] rounded-full flex justify-center items-center"
@@ -37,7 +38,7 @@ const Skills = () => {
         </div>
 
         <div className="flex gap-3 flex-col">
-          <label className="text-[18px] font-bold">Bootstrap</label>
+          <label className="text-[18px] font-bold text-white">Bootstrap</label>
           <div className="w-full h-5 bg-[#dee9d8] rounded-full">
             <div
               className="h-5 bg-[#00ae76] rounded-full flex justify-center items-center"
@@ -49,7 +50,7 @@ const Skills = () => {
         </div>
 
         <div className="flex gap-3 flex-col">
-          <label className="text-[18px] font-bold">Node JS</label>
+          <label className="text-[18px] font-bold text-white">Node JS</label>
           <div className="w-full h-5 bg-[#dee9d8] rounded-full">
             <div
               className="h-5 bg-[#00ae76] rounded-full flex justify-center items-center"
@@ -61,7 +62,7 @@ const Skills = () => {
         </div>
 
         <div className="flex gap-3 flex-col">
-          <label className="text-[18px] font-bold">Express JS</label>
+          <label className="text-[18px] font-bold text-white">Express JS</label>
           <div className="w-full h-5 bg-[#dee9d8] rounded-full">
             <div
               className="h-5 bg-[#00ae76] rounded-full flex justify-center items-center"
@@ -73,7 +74,7 @@ const Skills = () => {
         </div>
 
         <div className="flex gap-3 flex-col">
-          <label className="text-[18px] font-bold">Mongo DB</label>
+          <label className="text-[18px] font-bold text-white">Mongo DB</label>
           <div className="w-full h-5 bg-[#dee9d8] rounded-full">
             <div
               className="h-5 bg-[#00ae76] rounded-full flex justify-center items-center"
@@ -85,7 +86,9 @@ const Skills = () => {
         </div>
 
         <div className="flex gap-3 flex-col">
-          <label className="text-[18px] font-bold">Tailwind CSS</label>
+          <label className="text-[18px] font-bold text-white">
+            Tailwind CSS
+          </label>
           <div className="w-full h-5 bg-[#dee9d8] rounded-full">
             <div
               className="h-5 bg-[#00ae76] rounded-full flex justify-center items-center"
@@ -97,7 +100,7 @@ const Skills = () => {
         </div>
 
         <div className="flex gap-3 flex-col">
-          <label className="text-[18px] font-bold">React JS</label>
+          <label className="text-[18px] font-bold text-white">React JS</label>
           <div className="w-full h-5 bg-[#dee9d8] rounded-full">
             <div
               className="h-5 bg-[#00ae76] rounded-full flex justify-center items-center"
@@ -109,7 +112,9 @@ const Skills = () => {
         </div>
 
         <div className="flex gap-3 flex-col">
-          <label className="text-[18px] font-bold">React Native</label>
+          <label className="text-[18px] font-bold text-white">
+            React Native
+          </label>
           <div className="w-full h-5 bg-[#dee9d8] rounded-full">
             <div
               className="h-5 bg-[#00ae76] rounded-full flex justify-center items-center"
@@ -121,7 +126,7 @@ const Skills = () => {
         </div>
 
         <div className="flex gap-3 flex-col">
-          <label className="text-[18px] font-bold">Flutter</label>
+          <label className="text-[18px] font-bold text-white">Flutter</label>
           <div className="w-full h-5 bg-[#dee9d8] rounded-full">
             <div
               className="h-5 bg-[#00ae76] rounded-full flex justify-center items-center"
@@ -133,7 +138,7 @@ const Skills = () => {
         </div>
 
         <div className="flex gap-3 flex-col">
-          <label className="text-[18px] font-bold">Dart</label>
+          <label className="text-[18px] font-bold text-white">Dart</label>
           <div className="w-full h-5 bg-[#dee9d8] rounded-full">
             <div
               className="h-5 bg-[#00ae76] rounded-full flex justify-center items-center"

@@ -1,23 +1,10 @@
 #root {
   max-width: 1280px;
-  /* margin: 0 auto; */
-  padding: 2rem;
   text-align: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+body {
+  background-color: #040404;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -39,4 +26,44 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.animated-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  display: inline-block;
+  border-right: 2px solid black; /* Cursor effect */
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow: hidden; /* Hide the overflow during the animation */
+}
+
+@keyframes typing {
+  0% {
+    width: 0ch;
+  }
+  50% {
+    width: 16ch; /* Adjust the value to match the length of the longest text */
+  }
+  60% {
+    width: 16ch;
+  }
+  100% {
+    width: 0ch;
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}
+
+.text {
+  display: inline-block;
+  animation: typing 4s steps(14, end) infinite, blink 0.7s step-end infinite;
 }

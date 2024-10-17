@@ -91,22 +91,31 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, setIsOpen }) => {
       </div>
 
       {/* Large Screen Sidebar */}
-      <div className="hidden lg:block lg:w-64 bg-gray-800 text-white">
-        <div className="p-4">
+      <div className="hidden lg:block lg:w-64 bg-gray-800 text-white fixed h-full pt-14">
+        <div className="flex items-center justify-center p-4">
+          <div className="border-[5px] border-[#00ae76] rounded-full overflow-hidden w-32 h-32">
+            <img
+              className="w-full h-full object-cover"
+              src={image1}
+              alt="image1"
+            />
+          </div>
+        </div>
+        <div className="p-10">
           <Link to="/">
-            <h2>Home</h2>
+            <h2 className="text-[25px] font-normal pt-2 pb-2">Home</h2>
           </Link>
           <Link to="/about">
-            <h2>About</h2>
+            <h2 className="text-[25px] font-normal pt-2 pb-2">About</h2>
           </Link>
           <Link to="/contact">
-            <h2>Contacts</h2>
+            <h2 className="text-[25px] font-normal pt-2 pb-2">Contacts</h2>
           </Link>
           <Link to="/skills">
-            <h2>Skills</h2>
+            <h2 className="text-[25px] font-normal pt-2 pb-2">Skills</h2>
           </Link>
           <Link to="/project">
-            <h2>Portfolio</h2>
+            <h2 className="text-[25px] font-normal pt-2 pb-2">Portfolio</h2>
           </Link>
         </div>
       </div>
